@@ -1,0 +1,89 @@
+//font-family: 'Open Sans', sans-serif;
+
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+.page-main {
+    background-image: url(../img/main-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__logo{
+        background-image: url(../img/logo.svg);
+        background-repeat: no-repeat;
+        display: block;
+        width: 180px;
+        height: 61px;
+        margin-left: 300px;
+        margin-top: 50px;
+    }
+
+    &-list{
+        list-style-type: none;
+        display: flex;
+        justify-content: flex-end;
+
+        &__item{
+            margin-left: 15px;
+            color: #fff;
+        }
+        &__item9{
+            margin-left: 15px;
+            padding-right: 220px;
+            color: #fff;
+        }
+    }
+}
+
+.block{
+    &-cover1{
+        background-image: url(../img/book.png);
+        display: block;
+        width: 400px;
+        height: 600px;
+        background-repeat: no-repeat;
+        float:left;
+        margin: 200px 50px 2px 292px;
+    }
+    &-tetx1 {
+        color: white;
+        padding-top: 190px;
+        &__name1{
+            font-size: 18px;
+        }
+        &__title1{
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+        span{
+            color: rgb(22, 213, 22);
+        }
+        &__text1{
+            font-size: 20px;
+            padding-top: 19px;
+        }
+        &__text2{
+            font-size: 20px;
+            padding-bottom: 20px;
+        }
+        &__btn1{
+        background-color: #78f382;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 700;
+        border-radius: 6px;
+        padding: 14px 42px;
+        margin-bottom: 20px;
+        border: 1px solid #78f382;
+        }
+    }
+}
+
